@@ -26,8 +26,8 @@ public class ClientWithPostAndGet {
 	
 	public static void Client() throws UnsupportedEncodingException, IOException {
 	// request = "http://example.com:8082/subfolder/subsubfolder/result?";
-	request = "https://ptsv2.com/t/et4ro-1560440878/post";
-	// String request = "http://httpbin.org/get?";
+//	request = "https://ptsv2.com/t/et4ro-1560440878/post";
+	 request = "http://httpbin.org/post";
 //	request = "http://example.com/index.php";
 	boundary = Long.toHexString(System.currentTimeMillis()); // Just generate some unique random value.
 	CRLF = "\r\n"; // Line separator required by multipart/form-data.
